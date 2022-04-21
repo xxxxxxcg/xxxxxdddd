@@ -1,0 +1,38 @@
+{
+    "name": "v2ray2.0",
+    "description": "在Heroku上部署v2ray2.0",
+    "keywords": ["v2ray2.0"],
+    "env": {
+        "AA": {
+            "description": "初级用户留空即可",
+            "value": "默认"
+        },
+        "AUUID": {
+            "description": "UUID",
+            "value": "a8df97d4-95ca-419c-986d-2755064de48b"
+        },
+        "CADDYIndexPage": {
+            "description": "CADDY显示页面",
+            "value": "https://github.com/xxxxxxcg/html-temple-start/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/xxxxxxcg/xxxxxdddd/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/xxxxxxcg/xxxxxdddd/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "加密方式",
+            "value": "aes-256-gcm"
+        },
+        "StoreFiles": {
+            "description": "自定义网络地址读取存储文件列表",
+            "value": "https://raw.githubusercontent.com/xxxxxxcg/xxxxxdddd/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://aicn.site/",
+    "repository": "https://github.com/xxxxxxcg/xxxxxdddd/",
+    "stack": "container"
+}
