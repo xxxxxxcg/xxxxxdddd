@@ -13,7 +13,7 @@
         },
         "CADDYIndexPage": {
             "description": "CADDY显示页面",
-            "value": "https://github.com/xxxxxxcg/xxxxxdddd/main/mikutap.zip"
+            "value": "https://github.com/xxxxxxcg/xxxxxdddd/archive/mikutap.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
